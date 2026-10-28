@@ -22,3 +22,6 @@ data/*.joblib
 Thumbs.db
 .idea/
 .vscode/
+
+# Private notes — never publish
+docs/pitch.md

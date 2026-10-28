@@ -84,6 +84,8 @@ screenshots/        <- add your captured screenshots here
 
 ## Setup
 
+> **Adopting this for your own team?** See [`docs/USAGE.md`](docs/USAGE.md) for a plain-language guide: operating it day-to-day, adapting the categories/teams/keywords/tiers to your business, and training it on your own tickets.
+
 ```powershell
 # Windows PowerShell
 python -m venv .venv
