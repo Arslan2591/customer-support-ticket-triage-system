@@ -33,9 +33,9 @@ def main() -> None:
     model.save(args.out)
     print(f"Trained on {len(df)} tickets -> saved model to {args.out}")
 
-    # Honest, held-out evaluation (simulated portfolio metrics).
+    # Honest, held-out evaluation on the (synthetic) evaluation dataset.
     m = evaluate(args.csv, settings.confidence_threshold)
-    print("\nHeld-out quality metrics (simulated portfolio metrics):")
+    print("\nHeld-out quality metrics:")
     print(f"  test tickets           : {m.n_test}")
     print(f"  category macro F1      : {m.category_macro_f1}")
     print(f"  priority macro F1      : {m.priority_macro_f1}")

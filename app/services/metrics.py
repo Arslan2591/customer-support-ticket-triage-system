@@ -1,8 +1,9 @@
 """Metrics — quality (offline eval) and workflow/business (runtime).
 
 Quality metrics are computed on a held-out, stratified test split so the
-numbers are honest rather than training-set optimism. Because the data is
-synthetic, the README labels all of this as *simulated portfolio metrics*.
+numbers are honest rather than training-set optimism. The evaluation dataset
+is synthetically generated, so treat these figures as illustrative of the
+pipeline rather than production results.
 """
 from __future__ import annotations
 
@@ -93,7 +94,7 @@ def evaluate(csv_path: str, confidence_threshold: float, test_size: float = 0.25
 
 
 def estimated_hours_saved(n_tickets: int, auto_containment_rate: float) -> float:
-    """Simulated business metric. Manual baseline vs. system-assisted time."""
+    """Projected business metric. Manual baseline vs. system-assisted time."""
     baseline = n_tickets * SECONDS_MANUAL_TRIAGE
     assisted = (
         n_tickets * auto_containment_rate * 0  # auto-assigned ~ no human time

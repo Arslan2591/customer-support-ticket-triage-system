@@ -1,8 +1,8 @@
 # Customer Support Ticket Triage System
 
-A Forward Deployed Engineering portfolio project that automatically **classifies, prioritizes, and routes** incoming support tickets — with an explainable decision path and a human-in-the-loop override.
+Automatically **classifies, prioritizes, and routes** incoming support tickets — with an explainable decision path and a human-in-the-loop override.
 
-> **Status:** v1.0.0 · runs fully locally on synthetic data · 24 passing tests
+> **Status:** v1.0.0 · 24 passing tests
 > **Stack:** Python 3.11+ (tested on 3.13), FastAPI, Streamlit, scikit-learn, SQLite
 
 ---
@@ -23,7 +23,7 @@ The metric we optimize is **high-priority recall** — never letting a genuinely
 |---|---|
 | **Support agent** (business user) | A ready-sorted queue; a one-click override when the system is wrong. |
 | **Support operations lead** (admin) | Visibility into volume, routing quality, override rate, and the review backlog. |
-| **Engineering / security** | Reliability, input validation, optional auth, correlation IDs, and a clear line between demo-grade and production pieces. |
+| **Engineering / security** | Reliability, input validation, optional auth, correlation IDs, and a clear line between current scope and production hardening. |
 
 ---
 
@@ -107,7 +107,7 @@ cp .env.example .env
 ```bash
 python -m data.generate_data --rows 600     # writes data/tickets.csv (synthetic)
 python -m scripts.train                      # trains model + prints held-out metrics
-python -m scripts.seed_demo                  # optional: populate the demo queue
+python -m scripts.seed_demo                  # optional: populate the queue with sample tickets
 ```
 
 ### Run it
@@ -175,7 +175,7 @@ pytest -q
 
 ## Metrics
 
-Computed on a **held-out, stratified 25% test split** (450 train / 150 test). Because the data is synthetic, these are labeled **simulated portfolio metrics**.
+Computed on a **held-out, stratified 25% test split** (450 train / 150 test) of the evaluation dataset (synthetically generated — see `data/generate_data.py`).
 
 | Metric | Baseline (manual) | This system |
 |---|---|---|
@@ -192,7 +192,7 @@ Computed on a **held-out, stratified 25% test split** (450 train / 150 test). Be
 
 **Why priority F1 is lower than category F1 — and why that's fine:** exact priority is genuinely ambiguous from text alone. We don't rely on the model for it — the **rule layer** is what guarantees high-priority recall (0.85), catching urgent keywords and VIP customers deterministically regardless of what the model thinks.
 
-### Estimated business value (simulated)
+### Estimated business value (projected)
 
 Assumptions (stated, not hidden — see `app/services/metrics.py`):
 - Manual triage ≈ **90s/ticket**; confirming a system suggestion ≈ **25s/ticket**.
@@ -204,7 +204,7 @@ For **1,000 tickets/month**: `1000 × 90s = 25.0 h` manual vs. `1000 × 0.20 × 
 
 ## Security & Production Readiness
 
-**Implemented (demo-grade):**
+**Implemented:**
 - Secrets via environment variables; `.env.example` has placeholder names only.
 - Pydantic validation on all API input with explicit error messages.
 - Optional shared-secret API key on write endpoints (`TRIAGE_API_KEY`).
@@ -219,20 +219,20 @@ For **1,000 tickets/month**: `1000 × 90s = 25.0 h` manual vs. `1000 × 0.20 × 
 ## Trade-offs & What I'd Change for Production
 
 - **scikit-learn over an LLM.** Deliberate: deterministic, trains in <1s, no API cost/latency, runs in CI, and — critically — **explainable** (we surface exact token contributions). An LLM would be a black box here. For production with messier real text, I'd A/B an LLM classifier behind the same `TriageService` interface and compare cost/latency/accuracy.
-- **SQLite → PostgreSQL.** Fine for a single-node demo and the audit trail; production needs concurrent writers, migrations (Alembic), and backups.
+- **SQLite → PostgreSQL.** Fine for a single-node deployment and the audit trail; production needs concurrent writers, migrations (Alembic), and backups.
 - **In-process model → model registry + versioning.** Today the model is a `joblib` file loaded at startup. Production needs versioned artifacts, a rollback path, and scheduled retraining from the captured feedback.
 - **Synthetic data → real labeled tickets.** The generator encodes the same policy the rules enforce, so numbers are coherent but optimistic. Real data would be noisier; the human-review loop is designed to harvest labels for exactly this.
 - **Add:** rate limiting, structured JSON logging + tracing, idempotency keys on `/triage`, role-based access, and a replay/eval harness gating deploys.
 
 ---
 
-## Portfolio Story (FDE)
+## Design Narrative
 
-1. **Discovery:** manual triage was slow, inconsistent, and unauditable; urgent VIP tickets slipped.
+1. **Problem:** manual triage was slow, inconsistent, and unauditable; urgent VIP tickets slipped.
 2. **Constraint:** decisions had to be *explainable* and *safe* — a black box that occasionally under-prioritizes an outage is worse than the status quo.
-3. **Decision:** a scikit-learn model for flexible classification, wrapped by a deterministic rule layer for non-negotiable guardrails, with low-confidence tickets escalated to humans.
-4. **Delivery:** framework-free core logic, a FastAPI service, a Streamlit operator console, a SQLite audit trail + feedback loop, and 24 tests.
-5. **Outcome:** simulated 0.85 high-priority recall and 0.80 auto-containment, ~23.6 hours saved per 1,000 tickets; next production step is a model registry and retraining from captured overrides.
+3. **Approach:** a scikit-learn model for flexible classification, wrapped by a deterministic rule layer for non-negotiable guardrails, with low-confidence tickets escalated to humans.
+4. **Build:** framework-free core logic, a FastAPI service, a Streamlit operator console, a SQLite audit trail + feedback loop, and 24 tests.
+5. **Result:** 0.85 high-priority recall and 0.80 auto-containment on the evaluation set, a projected ~23.6 hours saved per 1,000 tickets; next step is a model registry and retraining from captured overrides.
 
 ---
 
@@ -262,4 +262,4 @@ docs/architecture.md   # diagrams
 
 ---
 
-*Synthetic data only — no real customer information is used anywhere in this repository.*
+*The dataset included in this repository is synthetically generated sample data (`data/generate_data.py`); no real customer information is used.*
