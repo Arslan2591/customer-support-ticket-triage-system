@@ -1,0 +1,24 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Generated artifacts (reproducible via scripts) — keep the repo clean.
+# The CSV + model are regenerated with `python -m data.generate_data` and `python scripts/train.py`.
+data/*.db
+data/*.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
