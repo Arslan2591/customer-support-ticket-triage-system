@@ -1,0 +1,601 @@
+ticket_id,subject,body,customer_tier,category,priority,assigned_team
+T-00001,Add a new team member,Please add jane@example.com as an admin. Payment failed for all users — this is an emergency.,Enterprise,Account,Urgent,Account Management
+T-00002,Something is wrong,It stopped working and I'm not sure why.,Free,Bug,High,Engineering
+T-00003,Feature request: bulk export,An audit log would help us with compliance reviews.,Free,Feature Request,Low,Product Team
+T-00004,This isn't working,Not sure who to contact about this.,VIP,Billing,High,Billing Team
+T-00005,Button does nothing when clicked,"After I edit a record and save, the change disappears on refresh.",Free,Bug,High,Engineering
+T-00006,Issue with my account,This has been happening for a few days now.,Free,General,Low,Tier-1 Support
+T-00007,Change account owner,We need to transfer ownership to a new manager.,Pro,Account,Low,Account Management
+T-00008,Refund request for duplicate charge,My card was declined but I was still charged.,Pro,Billing,Low,Billing Team
+T-00009,Can you help?,Can someone take a look at this when you get a chance?,Pro,Billing,High,Billing Team
+T-00010,Can you help?,Not sure who to contact about this.,VIP,Billing,High,Billing Team
+T-00011,Question,Not sure who to contact about this.,Pro,Bug,High,Engineering
+T-00012,Invoice does not match my plan,Please update my billing address and resend the receipt.,Free,Billing,High,Billing Team
+T-00013,Do you offer a nonprofit discount?,Is there a guide for onboarding a new team?,Free,General,Low,Tier-1 Support
+T-00014,Remove a user from the workspace,Deactivate the seat for a teammate who left.,Free,Account,Medium,Account Management
+T-00015,Something is wrong,Please advise.,Free,Bug,Medium,Engineering
+T-00016,Reset my password,I can't log in and the reset email never arrives.,Pro,Account,Low,Account Management
+T-00017,General question about limits,Is there a guide for onboarding a new team?,Free,General,Low,Tier-1 Support
+T-00018,Can we get Slack notifications?,Our team lives in Slack and wants alerts there.,Pro,Feature Request,Medium,Product Team
+T-00019,Thanks for the great product,Just wanted to say the new update is great.,Pro,General,Low,Tier-1 Support
+T-00020,I was charged twice this month,I see two charges on my statement for the same billing period.,Pro,Billing,Urgent,Billing Team
+T-00021,This isn't working,"Please advise. Critical: customers are affected right now, please help ASAP.",Pro,Account,Urgent,Account Management
+T-00022,I was charged twice this month,I'd like to switch from monthly to annual billing.,Enterprise,Billing,Urgent,Billing Team
+T-00023,Update payment method,My card was declined but I was still charged.,Free,Billing,Medium,Billing Team
+T-00024,Update payment method,Can you explain the line items on invoice 9459? Payment failed for all users — this is an emergency.,Pro,Billing,Urgent,Billing Team
+T-00025,Export to CSV fails,Webhooks are arriving several minutes late.,Pro,Technical,Medium,Technical Support
+T-00026,Issue with my account,Please advise.,Free,Bug,High,Engineering
+T-00027,Reset my password,I can't log in and the reset email never arrives.,Pro,Account,Low,Account Management
+T-00028,Unable to connect to the API,The dashboard takes over 30 seconds to load since yesterday.,Pro,Technical,Medium,Technical Support
+T-00029,Thanks for the great product,What are the rate limits on the starter plan? This is urgent — our production system is down.,Pro,General,Urgent,Tier-1 Support
+T-00030,Add support for custom fields,An audit log would help us with compliance reviews.,Free,Feature Request,Medium,Product Team
+T-00031,Question,This has been happening for a few days now.,Pro,Account,Low,Account Management
+T-00032,Would love an audit log,A dark theme would reduce eye strain for night shifts.,Enterprise,Feature Request,High,Product Team
+T-00033,Please add dark mode,Our team lives in Slack and wants alerts there.,Pro,Feature Request,Low,Product Team
+T-00034,Getting timeout errors,Our integration receives 401 errors intermittently.,Pro,Technical,Medium,Technical Support
+T-00035,Need help,Let me know what you need from me.,Pro,Technical,Medium,Technical Support
+T-00036,Feature request: bulk export,It would help a lot if we could export all records at once.,VIP,Feature Request,High,Product Team
+T-00037,Export to CSV fails,"The CSV export button spins forever and never downloads. Critical: customers are affected right now, please help ASAP.",Pro,Technical,Urgent,Technical Support
+T-00038,Where can I find the documentation?,Just wanted to say the new update is great.,Pro,General,Medium,Tier-1 Support
+T-00039,Button does nothing when clicked,Search returns nothing even for records I can see in the list.,Free,Bug,Medium,Engineering
+T-00040,Unable to connect to the API,We see timeouts when calling the reports endpoint.,Free,Technical,High,Technical Support
+T-00041,Issue with my account,Not sure who to contact about this. This is urgent — our production system is down.,Enterprise,Billing,Urgent,Billing Team
+T-00042,Numbers on the report are wrong,We're seeing duplicate rows created for a single action.,Free,Bug,High,Engineering
+T-00043,Duplicate records appearing,Search returns nothing even for records I can see in the list.,Pro,Bug,High,Engineering
+T-00044,SSO login not working,We see timeouts when calling the reports endpoint.,Pro,Technical,Urgent,Technical Support
+T-00045,Please add dark mode,"Our team lives in Slack and wants alerts there. Critical: customers are affected right now, please help ASAP.",Free,Feature Request,Urgent,Product Team
+T-00046,SSO login not working,Our integration receives 401 errors intermittently.,Enterprise,Technical,Urgent,Technical Support
+T-00047,Follow up,Can someone take a look at this when you get a chance?,Pro,Technical,Medium,Technical Support
+T-00048,Webhook events are delayed,Webhooks are arriving several minutes late.,Pro,Technical,Medium,Technical Support
+T-00049,Follow up,This has been happening for a few days now.,Pro,Billing,High,Billing Team
+T-00050,Add a new team member,Please add jane@example.com as an admin.,Pro,Account,Low,Account Management
+T-00051,This isn't working,Not sure who to contact about this.,Free,Billing,High,Billing Team
+T-00052,Question about your pricing plans,Just wanted to say the new update is great.,Enterprise,General,High,Tier-1 Support
+T-00053,This isn't working,This has been happening for a few days now.,Free,Account,Medium,Account Management
+T-00054,Question about my invoice,Please update my billing address and resend the receipt. This is urgent — our production system is down.,Pro,Billing,Urgent,Billing Team
+T-00055,Refund request for duplicate charge,Please update my billing address and resend the receipt. We have a complete outage and cannot access anything.,Free,Billing,Urgent,Billing Team
+T-00056,SSO login not working,Webhooks are arriving several minutes late.,Free,Technical,Urgent,Technical Support
+T-00057,Can you help?,It stopped working and I'm not sure why.,Pro,Feature Request,Low,Product Team
+T-00058,I was charged twice this month,Please update my billing address and resend the receipt.,Free,Billing,Urgent,Billing Team
+T-00059,Invoice does not match my plan,My card was declined but I was still charged.,Pro,Billing,High,Billing Team
+T-00060,Button does nothing when clicked,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,High,Engineering
+T-00061,Do you offer a nonprofit discount?,"I'm evaluating the product and have a few questions. Critical: customers are affected right now, please help ASAP.",Pro,General,Urgent,Tier-1 Support
+T-00062,Webhook events are delayed,We see timeouts when calling the reports endpoint.,Free,Technical,Medium,Technical Support
+T-00063,Follow up,It stopped working and I'm not sure why.,Pro,Billing,Medium,Billing Team
+T-00064,Problem,Can someone take a look at this when you get a chance?,Free,Bug,Medium,Engineering
+T-00065,Update company name on account,I can't log in and the reset email never arrives.,Free,Account,Low,Account Management
+T-00066,Something is wrong,Please advise. This is urgent — our production system is down.,Free,Billing,Urgent,Billing Team
+T-00067,This isn't working,Let me know what you need from me.,Pro,Account,Medium,Account Management
+T-00068,Change account owner,How do I turn on 2FA for everyone on the plan? Payment failed for all users — this is an emergency.,Pro,Account,Urgent,Account Management
+T-00069,General question about limits,Just wanted to say the new update is great.,Pro,General,Medium,Tier-1 Support
+T-00070,Question about your pricing plans,"I'm evaluating the product and have a few questions. Critical: customers are affected right now, please help ASAP.",Pro,General,Urgent,Tier-1 Support
+T-00071,Would love an audit log,It would help a lot if we could export all records at once.,Enterprise,Feature Request,High,Product Team
+T-00072,Enable two-factor authentication,How do I turn on 2FA for everyone on the plan? Payment failed for all users — this is an emergency.,Free,Account,Urgent,Account Management
+T-00073,How do I get started?,What are the rate limits on the starter plan?,Pro,General,Low,Tier-1 Support
+T-00074,Webhook events are delayed,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00075,Question about my invoice,Please update my billing address and resend the receipt.,Pro,Billing,Medium,Billing Team
+T-00076,Need help,This has been happening for a few days now.,Pro,Bug,High,Engineering
+T-00077,Refund request for duplicate charge,Please update my billing address and resend the receipt.,Pro,Billing,High,Billing Team
+T-00078,Refund request for duplicate charge,"I see two charges on my statement for the same billing period. Possible security breach, need help immediately.",VIP,Billing,Urgent,Billing Team
+T-00079,Data not saving after edit,We're seeing duplicate rows created for a single action.,VIP,Bug,High,Engineering
+T-00080,Problem,Not sure who to contact about this.,Pro,Billing,Medium,Billing Team
+T-00081,Update payment method,My card was declined but I was still charged.,Pro,Billing,High,Billing Team
+T-00082,Question about your pricing plans,Could you point me to the API docs?,Pro,General,Low,Tier-1 Support
+T-00083,Remove a user from the workspace,Please add jane@example.com as an admin.,Free,Account,Medium,Account Management
+T-00084,Update company name on account,Please add jane@example.com as an admin.,Free,Account,Medium,Account Management
+T-00085,Problem,Let me know what you need from me.,Free,Billing,Medium,Billing Team
+T-00086,Change account owner,Deactivate the seat for a teammate who left.,Free,Account,Medium,Account Management
+T-00087,Numbers on the report are wrong,We're seeing duplicate rows created for a single action.,Pro,Bug,Medium,Engineering
+T-00088,General question about limits,Is there a guide for onboarding a new team?,Enterprise,General,High,Tier-1 Support
+T-00089,Enable two-factor authentication,We need to transfer ownership to a new manager.,Free,Account,Medium,Account Management
+T-00090,Feature request: bulk export,Our team lives in Slack and wants alerts there.,Pro,Feature Request,Low,Product Team
+T-00091,Duplicate records appearing,We're seeing duplicate rows created for a single action.,Free,Bug,Medium,Engineering
+T-00092,Refund request for duplicate charge,Can you explain the line items on invoice 7034?,Free,Billing,Medium,Billing Team
+T-00093,Update payment method,Please update my billing address and resend the receipt.,Pro,Billing,Medium,Billing Team
+T-00094,Refund request for duplicate charge,Can you explain the line items on invoice 9247?,Pro,Billing,Medium,Billing Team
+T-00095,Update payment method,My card was declined but I was still charged.,Free,Billing,Low,Billing Team
+T-00096,Webhook events are delayed,"We see timeouts when calling the reports endpoint. Possible security breach, need help immediately.",Free,Technical,Urgent,Technical Support
+T-00097,This isn't working,Can someone take a look at this when you get a chance?,Free,Feature Request,Medium,Product Team
+T-00098,Invoice does not match my plan,My card was declined but I was still charged.,Enterprise,Billing,High,Billing Team
+T-00099,Question about my invoice,I'd like to switch from monthly to annual billing.,Pro,Billing,High,Billing Team
+T-00100,Problem,Please advise.,Pro,General,Low,Tier-1 Support
+T-00101,Please add dark mode,It would help a lot if we could export all records at once.,Free,Feature Request,Low,Product Team
+T-00102,Reset my password,Deactivate the seat for a teammate who left.,VIP,Account,High,Account Management
+T-00103,Refund request for duplicate charge,I see two charges on my statement for the same billing period.,VIP,Billing,High,Billing Team
+T-00104,Refund request for duplicate charge,"Can you explain the line items on invoice 9076? Critical: customers are affected right now, please help ASAP.",Free,Billing,Urgent,Billing Team
+T-00105,Change account owner,How do I turn on 2FA for everyone on the plan?,Pro,Account,Low,Account Management
+T-00106,Remove a user from the workspace,I can't log in and the reset email never arrives.,Pro,Account,Medium,Account Management
+T-00107,I was charged twice this month,Can you explain the line items on invoice 8947?,VIP,Billing,Urgent,Billing Team
+T-00108,Button does nothing when clicked,"After I edit a record and save, the change disappears on refresh.",Free,Bug,High,Engineering
+T-00109,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,Free,Billing,Medium,Billing Team
+T-00110,Update company name on account,Deactivate the seat for a teammate who left.,Free,Account,Medium,Account Management
+T-00111,Add a new team member,Please add jane@example.com as an admin.,VIP,Account,High,Account Management
+T-00112,Issue with my account,This has been happening for a few days now.,VIP,Feature Request,High,Product Team
+T-00113,Feature request: bulk export,A dark theme would reduce eye strain for night shifts.,Free,Feature Request,Low,Product Team
+T-00114,Add a new team member,Deactivate the seat for a teammate who left.,Free,Account,Medium,Account Management
+T-00115,Question about my invoice,I'd like to switch from monthly to annual billing.,Free,Billing,Medium,Billing Team
+T-00116,Update company name on account,Please add jane@example.com as an admin.,Free,Account,Medium,Account Management
+T-00117,Update company name on account,Please add jane@example.com as an admin.,Free,Account,Low,Account Management
+T-00118,Request for a mobile app,A dark theme would reduce eye strain for night shifts.,Pro,Feature Request,Low,Product Team
+T-00119,Would love an audit log,A dark theme would reduce eye strain for night shifts.,Free,Feature Request,Low,Product Team
+T-00120,Update company name on account,Please add jane@example.com as an admin.,Pro,Account,Low,Account Management
+T-00121,Webhook events are delayed,We see timeouts when calling the reports endpoint.,Free,Technical,High,Technical Support
+T-00122,Question about my invoice,Can you explain the line items on invoice 2579?,VIP,Billing,High,Billing Team
+T-00123,Export to CSV fails,Our integration receives 401 errors intermittently.,Free,Technical,Low,Technical Support
+T-00124,Change account owner,We need to transfer ownership to a new manager.,Free,Account,Low,Account Management
+T-00125,Issue with my account,"Not sure who to contact about this. Critical: customers are affected right now, please help ASAP.",Free,Technical,Urgent,Technical Support
+T-00126,Numbers on the report are wrong,"We're seeing duplicate rows created for a single action. Possible security breach, need help immediately.",Pro,Bug,Urgent,Engineering
+T-00127,Problem,Can someone take a look at this when you get a chance? We have a complete outage and cannot access anything.,Enterprise,Feature Request,Urgent,Product Team
+T-00128,This isn't working,This has been happening for a few days now.,Free,Bug,High,Engineering
+T-00129,Why did my subscription price change?,"I'd like to switch from monthly to annual billing. Critical: customers are affected right now, please help ASAP.",Free,Billing,Urgent,Billing Team
+T-00130,Why did my subscription price change?,Can you explain the line items on invoice 1186?,Free,Billing,High,Billing Team
+T-00131,How do I get started?,Is there a guide for onboarding a new team?,Free,General,Medium,Tier-1 Support
+T-00132,Something is wrong,Let me know what you need from me.,Free,Feature Request,Medium,Product Team
+T-00133,Problem,This has been happening for a few days now.,Free,Bug,High,Engineering
+T-00134,Can you help?,This has been happening for a few days now.,Free,Account,Medium,Account Management
+T-00135,Question about your pricing plans,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00136,Refund request for duplicate charge,My card was declined but I was still charged.,Enterprise,Billing,High,Billing Team
+T-00137,Duplicate records appearing,"After I edit a record and save, the change disappears on refresh.",Free,Bug,Medium,Engineering
+T-00138,This isn't working,"It stopped working and I'm not sure why. Possible security breach, need help immediately.",Free,Technical,Urgent,Technical Support
+T-00139,Remove a user from the workspace,We need to transfer ownership to a new manager.,Free,Account,Medium,Account Management
+T-00140,I was charged twice this month,Can you explain the line items on invoice 7627?,Enterprise,Billing,Urgent,Billing Team
+T-00141,Request for a mobile app,An audit log would help us with compliance reviews.,Free,Feature Request,Low,Product Team
+T-00142,Dashboard loads very slowly,The dashboard takes over 30 seconds to load since yesterday.,Free,Technical,Medium,Technical Support
+T-00143,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,Free,Billing,Medium,Billing Team
+T-00144,Add support for custom fields,We need custom fields to match our internal process. Payment failed for all users — this is an emergency.,Free,Feature Request,Urgent,Product Team
+T-00145,Request for a mobile app,Our team lives in Slack and wants alerts there.,Free,Feature Request,Low,Product Team
+T-00146,Webhook events are delayed,We see timeouts when calling the reports endpoint.,Free,Technical,Low,Technical Support
+T-00147,Do you offer a nonprofit discount?,Just wanted to say the new update is great. Payment failed for all users — this is an emergency.,Free,General,Urgent,Tier-1 Support
+T-00148,Question,Please advise.,VIP,General,High,Tier-1 Support
+T-00149,SSO login not working,"Our integration receives 401 errors intermittently. Critical: customers are affected right now, please help ASAP.",Free,Technical,Urgent,Technical Support
+T-00150,Webhook events are delayed,Our integration receives 401 errors intermittently.,Free,Technical,High,Technical Support
+T-00151,Dashboard loads very slowly,Webhooks are arriving several minutes late. We have a complete outage and cannot access anything.,Pro,Technical,Urgent,Technical Support
+T-00152,SSO login not working,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00153,Can you help?,This has been happening for a few days now.,Pro,Billing,Low,Billing Team
+T-00154,Remove a user from the workspace,We need to transfer ownership to a new manager.,VIP,Account,High,Account Management
+T-00155,Numbers on the report are wrong,We're seeing duplicate rows created for a single action.,Free,Bug,High,Engineering
+T-00156,Refund request for duplicate charge,Please update my billing address and resend the receipt.,Free,Billing,Low,Billing Team
+T-00157,Webhook events are delayed,The CSV export button spins forever and never downloads.,Free,Technical,Urgent,Technical Support
+T-00158,Unable to connect to the API,"The dashboard takes over 30 seconds to load since yesterday. Critical: customers are affected right now, please help ASAP.",Pro,Technical,Urgent,Technical Support
+T-00159,Update payment method,Please update my billing address and resend the receipt.,Pro,Billing,Medium,Billing Team
+T-00160,Reset my password,Please add jane@example.com as an admin.,Pro,Account,Medium,Account Management
+T-00161,Problem,This has been happening for a few days now.,Free,Billing,Low,Billing Team
+T-00162,Refund request for duplicate charge,Please update my billing address and resend the receipt.,Pro,Billing,High,Billing Team
+T-00163,Need help,Please advise. We have a complete outage and cannot access anything.,Free,Technical,Urgent,Technical Support
+T-00164,Unable to connect to the API,We see timeouts when calling the reports endpoint.,Free,Technical,Medium,Technical Support
+T-00165,Search returns no results for valid query,We're seeing duplicate rows created for a single action.,Pro,Bug,Medium,Engineering
+T-00166,Enable two-factor authentication,"Deactivate the seat for a teammate who left. Possible security breach, need help immediately.",Pro,Account,Urgent,Account Management
+T-00167,I was charged twice this month,I see two charges on my statement for the same billing period.,Pro,Billing,Urgent,Billing Team
+T-00168,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,Free,Billing,High,Billing Team
+T-00169,Do you offer a nonprofit discount?,What are the rate limits on the starter plan? Payment failed for all users — this is an emergency.,Pro,General,Urgent,Tier-1 Support
+T-00170,Getting timeout errors,Our integration receives 401 errors intermittently.,Free,Technical,Medium,Technical Support
+T-00171,Dashboard loads very slowly,The CSV export button spins forever and never downloads.,Enterprise,Technical,Urgent,Technical Support
+T-00172,Why did my subscription price change?,I'd like to switch from monthly to annual billing.,Free,Billing,Low,Billing Team
+T-00173,Need help,It stopped working and I'm not sure why. We have a complete outage and cannot access anything.,Enterprise,Bug,Urgent,Engineering
+T-00174,This isn't working,Let me know what you need from me.,Pro,Technical,Low,Technical Support
+T-00175,Can you help?,Can someone take a look at this when you get a chance?,Free,General,Medium,Tier-1 Support
+T-00176,Thanks for the great product,Could you point me to the API docs?,Free,General,Low,Tier-1 Support
+T-00177,Invoice does not match my plan,I see two charges on my statement for the same billing period.,Free,Billing,Medium,Billing Team
+T-00178,Refund request for duplicate charge,I'd like to switch from monthly to annual billing.,Pro,Billing,Low,Billing Team
+T-00179,Enable two-factor authentication,We need to transfer ownership to a new manager.,Free,Account,Medium,Account Management
+T-00180,Something is wrong,It stopped working and I'm not sure why.,Pro,Account,Low,Account Management
+T-00181,Issue with my account,Let me know what you need from me.,Pro,Account,Low,Account Management
+T-00182,Need help,Please advise.,Enterprise,Bug,High,Engineering
+T-00183,This isn't working,This has been happening for a few days now.,Free,Billing,Medium,Billing Team
+T-00184,Button does nothing when clicked,The totals in the monthly chart don't match the raw data.,Enterprise,Bug,High,Engineering
+T-00185,Why did my subscription price change?,I see two charges on my statement for the same billing period.,Pro,Billing,High,Billing Team
+T-00186,Request for a mobile app,It would help a lot if we could export all records at once.,Enterprise,Feature Request,High,Product Team
+T-00187,Request for a mobile app,Our team lives in Slack and wants alerts there.,Enterprise,Feature Request,High,Product Team
+T-00188,Do you offer a nonprofit discount?,Just wanted to say the new update is great.,Pro,General,Low,Tier-1 Support
+T-00189,Where can I find the documentation?,Could you point me to the API docs?,Pro,General,Low,Tier-1 Support
+T-00190,Reset my password,How do I turn on 2FA for everyone on the plan?,Pro,Account,Low,Account Management
+T-00191,Do you offer a nonprofit discount?,Just wanted to say the new update is great.,Free,General,Low,Tier-1 Support
+T-00192,Enable two-factor authentication,Please add jane@example.com as an admin.,VIP,Account,High,Account Management
+T-00193,SSO login not working,Webhooks are arriving several minutes late.,Free,Technical,Urgent,Technical Support
+T-00194,Where can I find the documentation?,"Could you point me to the API docs? Possible security breach, need help immediately.",Enterprise,General,Urgent,Tier-1 Support
+T-00195,Webhook events are delayed,The dashboard takes over 30 seconds to load since yesterday.,Pro,Technical,High,Technical Support
+T-00196,Update payment method,Please update my billing address and resend the receipt.,Pro,Billing,Medium,Billing Team
+T-00197,Something is wrong,Not sure who to contact about this.,Free,General,Medium,Tier-1 Support
+T-00198,Update payment method,Can you explain the line items on invoice 5096?,Enterprise,Billing,High,Billing Team
+T-00199,Add support for custom fields,Our team lives in Slack and wants alerts there.,Free,Feature Request,Low,Product Team
+T-00200,Problem,Please advise.,Enterprise,Feature Request,High,Product Team
+T-00201,Follow up,Please advise.,Pro,Technical,High,Technical Support
+T-00202,Data not saving after edit,Search returns nothing even for records I can see in the list.,Free,Bug,Medium,Engineering
+T-00203,Export to CSV fails,The dashboard takes over 30 seconds to load since yesterday.,VIP,Technical,High,Technical Support
+T-00204,Question,This has been happening for a few days now.,Free,Account,Medium,Account Management
+T-00205,Search returns no results for valid query,We're seeing duplicate rows created for a single action.,Free,Bug,Medium,Engineering
+T-00206,Question,Let me know what you need from me.,Free,Feature Request,Medium,Product Team
+T-00207,Button does nothing when clicked,Clicking 'Submit' does nothing and no error is shown.,Pro,Bug,Medium,Engineering
+T-00208,Duplicate records appearing,Clicking 'Submit' does nothing and no error is shown.,Pro,Bug,Medium,Engineering
+T-00209,Question about your pricing plans,Could you point me to the API docs?,Free,General,Low,Tier-1 Support
+T-00210,Remove a user from the workspace,Deactivate the seat for a teammate who left.,Free,Account,Low,Account Management
+T-00211,Problem,This has been happening for a few days now. Payment failed for all users — this is an emergency.,Enterprise,General,Urgent,Tier-1 Support
+T-00212,Export to CSV fails,The dashboard takes over 30 seconds to load since yesterday.,Pro,Technical,Low,Technical Support
+T-00213,General question about limits,Is there a guide for onboarding a new team?,Free,General,Low,Tier-1 Support
+T-00214,Remove a user from the workspace,How do I turn on 2FA for everyone on the plan?,Pro,Account,Low,Account Management
+T-00215,Thanks for the great product,What are the rate limits on the starter plan?,Enterprise,General,High,Tier-1 Support
+T-00216,Search returns no results for valid query,"After I edit a record and save, the change disappears on refresh.",Free,Bug,Medium,Engineering
+T-00217,Webhook events are delayed,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00218,Would love an audit log,It would help a lot if we could export all records at once.,Free,Feature Request,Low,Product Team
+T-00219,Where can I find the documentation?,What are the rate limits on the starter plan?,Pro,General,Medium,Tier-1 Support
+T-00220,Invoice does not match my plan,I see two charges on my statement for the same billing period.,Free,Billing,Medium,Billing Team
+T-00221,I was charged twice this month,I see two charges on my statement for the same billing period.,Pro,Billing,Urgent,Billing Team
+T-00222,Change account owner,Deactivate the seat for a teammate who left.,Free,Account,Low,Account Management
+T-00223,Update company name on account,Please add jane@example.com as an admin.,Free,Account,Medium,Account Management
+T-00224,Add support for custom fields,A dark theme would reduce eye strain for night shifts.,Free,Feature Request,Low,Product Team
+T-00225,Reset my password,How do I turn on 2FA for everyone on the plan?,Free,Account,Low,Account Management
+T-00226,Add support for custom fields,An audit log would help us with compliance reviews.,Pro,Feature Request,Low,Product Team
+T-00227,Update payment method,Please update my billing address and resend the receipt.,Free,Billing,High,Billing Team
+T-00228,Search returns no results for valid query,Search returns nothing even for records I can see in the list.,Free,Bug,High,Engineering
+T-00229,How do I get started?,Is there a guide for onboarding a new team?,Pro,General,Low,Tier-1 Support
+T-00230,Question about your pricing plans,What are the rate limits on the starter plan?,Free,General,Low,Tier-1 Support
+T-00231,Need help,This has been happening for a few days now.,Free,Feature Request,Low,Product Team
+T-00232,Invoice does not match my plan,"My card was declined but I was still charged. Possible security breach, need help immediately.",Pro,Billing,Urgent,Billing Team
+T-00233,Please add dark mode,We need custom fields to match our internal process.,Pro,Feature Request,Medium,Product Team
+T-00234,Question,It stopped working and I'm not sure why.,Free,Billing,Low,Billing Team
+T-00235,Export to CSV fails,Our integration receives 401 errors intermittently.,Pro,Technical,Medium,Technical Support
+T-00236,Invoice does not match my plan,Can you explain the line items on invoice 2381?,Free,Billing,High,Billing Team
+T-00237,Please add dark mode,It would help a lot if we could export all records at once. Payment failed for all users — this is an emergency.,Pro,Feature Request,Urgent,Product Team
+T-00238,Feature request: bulk export,We need custom fields to match our internal process.,Free,Feature Request,Medium,Product Team
+T-00239,Question about your pricing plans,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00240,Where can I find the documentation?,What are the rate limits on the starter plan?,Enterprise,General,High,Tier-1 Support
+T-00241,Chart shows incorrect totals,Clicking 'Submit' does nothing and no error is shown.,VIP,Bug,High,Engineering
+T-00242,Reset my password,Deactivate the seat for a teammate who left.,Pro,Account,Low,Account Management
+T-00243,Problem,Not sure who to contact about this.,Free,Feature Request,Medium,Product Team
+T-00244,This isn't working,Not sure who to contact about this.,Free,Billing,High,Billing Team
+T-00245,Remove a user from the workspace,Deactivate the seat for a teammate who left.,Pro,Account,Low,Account Management
+T-00246,Remove a user from the workspace,I can't log in and the reset email never arrives.,Pro,Account,Low,Account Management
+T-00247,Can you help?,It stopped working and I'm not sure why.,Pro,Feature Request,Medium,Product Team
+T-00248,Chart shows incorrect totals,Clicking 'Submit' does nothing and no error is shown.,Enterprise,Bug,High,Engineering
+T-00249,Problem,Not sure who to contact about this.,Free,Technical,Medium,Technical Support
+T-00250,Feature request: bulk export,It would help a lot if we could export all records at once.,Pro,Feature Request,Low,Product Team
+T-00251,Reset my password,We need to transfer ownership to a new manager.,Pro,Account,Low,Account Management
+T-00252,Why did my subscription price change?,My card was declined but I was still charged.,Free,Billing,Medium,Billing Team
+T-00253,Add support for custom fields,An audit log would help us with compliance reviews.,Free,Feature Request,Low,Product Team
+T-00254,Add a new team member,"Please add jane@example.com as an admin. Critical: customers are affected right now, please help ASAP.",Free,Account,Urgent,Account Management
+T-00255,Please add dark mode,An audit log would help us with compliance reviews.,Enterprise,Feature Request,High,Product Team
+T-00256,Invoice does not match my plan,I see two charges on my statement for the same billing period.,Free,Billing,High,Billing Team
+T-00257,Getting timeout errors,"Our integration receives 401 errors intermittently. Critical: customers are affected right now, please help ASAP.",Free,Technical,Urgent,Technical Support
+T-00258,Question about my invoice,I'd like to switch from monthly to annual billing.,Enterprise,Billing,High,Billing Team
+T-00259,Question about my invoice,Can you explain the line items on invoice 5895?,Free,Billing,High,Billing Team
+T-00260,Do you offer a nonprofit discount?,Could you point me to the API docs?,Free,General,Low,Tier-1 Support
+T-00261,Getting timeout errors,The dashboard takes over 30 seconds to load since yesterday.,Free,Technical,Medium,Technical Support
+T-00262,Question about my invoice,Please update my billing address and resend the receipt.,Free,Billing,Medium,Billing Team
+T-00263,Request for a mobile app,It would help a lot if we could export all records at once.,VIP,Feature Request,High,Product Team
+T-00264,Enable two-factor authentication,We need to transfer ownership to a new manager.,Enterprise,Account,High,Account Management
+T-00265,Dashboard loads very slowly,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00266,SSO login not working,Webhooks are arriving several minutes late.,Free,Technical,Urgent,Technical Support
+T-00267,Reset my password,How do I turn on 2FA for everyone on the plan?,Pro,Account,Low,Account Management
+T-00268,Data not saving after edit,The totals in the monthly chart don't match the raw data.,Pro,Bug,Medium,Engineering
+T-00269,Problem,This has been happening for a few days now.,Enterprise,Technical,High,Technical Support
+T-00270,Need help,This has been happening for a few days now.,VIP,General,High,Tier-1 Support
+T-00271,Problem,Can someone take a look at this when you get a chance?,Free,Bug,Medium,Engineering
+T-00272,Feature request: bulk export,Our team lives in Slack and wants alerts there.,Free,Feature Request,Medium,Product Team
+T-00273,Question,Please advise.,Free,Technical,Medium,Technical Support
+T-00274,Getting timeout errors,Our integration receives 401 errors intermittently.,Free,Technical,Low,Technical Support
+T-00275,Thanks for the great product,I'm evaluating the product and have a few questions.,Pro,General,Low,Tier-1 Support
+T-00276,Remove a user from the workspace,Please add jane@example.com as an admin.,Enterprise,Account,High,Account Management
+T-00277,Dashboard loads very slowly,"We see timeouts when calling the reports endpoint. Critical: customers are affected right now, please help ASAP.",Enterprise,Technical,Urgent,Technical Support
+T-00278,Update company name on account,Please add jane@example.com as an admin.,Pro,Account,Low,Account Management
+T-00279,Update company name on account,Please add jane@example.com as an admin.,Pro,Account,Medium,Account Management
+T-00280,Add support for custom fields,Our team lives in Slack and wants alerts there.,Pro,Feature Request,Low,Product Team
+T-00281,Problem,Not sure who to contact about this.,Pro,Technical,Low,Technical Support
+T-00282,I was charged twice this month,I'd like to switch from monthly to annual billing.,Free,Billing,Urgent,Billing Team
+T-00283,Data not saving after edit,"After I edit a record and save, the change disappears on refresh. This is urgent — our production system is down.",Free,Bug,Urgent,Engineering
+T-00284,Please add dark mode,It would help a lot if we could export all records at once.,Pro,Feature Request,Low,Product Team
+T-00285,Button does nothing when clicked,Search returns nothing even for records I can see in the list.,Pro,Bug,Medium,Engineering
+T-00286,Update payment method,Please update my billing address and resend the receipt. This is urgent — our production system is down.,Enterprise,Billing,Urgent,Billing Team
+T-00287,Enable two-factor authentication,Deactivate the seat for a teammate who left.,Free,Account,Low,Account Management
+T-00288,Change account owner,I can't log in and the reset email never arrives.,Pro,Account,Low,Account Management
+T-00289,Change account owner,Deactivate the seat for a teammate who left.,Free,Account,Low,Account Management
+T-00290,Webhook events are delayed,The dashboard takes over 30 seconds to load since yesterday. Payment failed for all users — this is an emergency.,Free,Technical,Urgent,Technical Support
+T-00291,How do I get started?,Just wanted to say the new update is great.,Pro,General,Medium,Tier-1 Support
+T-00292,Refund request for duplicate charge,I see two charges on my statement for the same billing period.,Free,Billing,Medium,Billing Team
+T-00293,Why did my subscription price change?,I'd like to switch from monthly to annual billing.,Free,Billing,Medium,Billing Team
+T-00294,Problem,This has been happening for a few days now.,Free,Feature Request,Low,Product Team
+T-00295,SSO login not working,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00296,Chart shows incorrect totals,Clicking 'Submit' does nothing and no error is shown.,Pro,Bug,Medium,Engineering
+T-00297,Why did my subscription price change?,Please update my billing address and resend the receipt.,Free,Billing,High,Billing Team
+T-00298,Issue with my account,Not sure who to contact about this.,Enterprise,Billing,High,Billing Team
+T-00299,Change account owner,Please add jane@example.com as an admin.,Free,Account,Low,Account Management
+T-00300,Numbers on the report are wrong,Search returns nothing even for records I can see in the list.,Enterprise,Bug,High,Engineering
+T-00301,Thanks for the great product,Is there a guide for onboarding a new team?,Pro,General,Low,Tier-1 Support
+T-00302,SSO login not working,We see timeouts when calling the reports endpoint.,Pro,Technical,Urgent,Technical Support
+T-00303,Enable two-factor authentication,I can't log in and the reset email never arrives.,Pro,Account,Low,Account Management
+T-00304,Request for a mobile app,We need custom fields to match our internal process.,Pro,Feature Request,Low,Product Team
+T-00305,Duplicate records appearing,We're seeing duplicate rows created for a single action.,Pro,Bug,Medium,Engineering
+T-00306,Remove a user from the workspace,We need to transfer ownership to a new manager.,Free,Account,Medium,Account Management
+T-00307,Can we get Slack notifications?,Our team lives in Slack and wants alerts there.,Free,Feature Request,Medium,Product Team
+T-00308,SSO login not working,We see timeouts when calling the reports endpoint.,Free,Technical,Urgent,Technical Support
+T-00309,Please add dark mode,It would help a lot if we could export all records at once.,Enterprise,Feature Request,High,Product Team
+T-00310,Update company name on account,How do I turn on 2FA for everyone on the plan?,Enterprise,Account,High,Account Management
+T-00311,Can you help?,This has been happening for a few days now.,Pro,Feature Request,Medium,Product Team
+T-00312,Can you help?,Please advise.,Pro,Billing,Medium,Billing Team
+T-00313,Webhook events are delayed,We see timeouts when calling the reports endpoint.,VIP,Technical,High,Technical Support
+T-00314,Unable to connect to the API,Webhooks are arriving several minutes late.,Free,Technical,Medium,Technical Support
+T-00315,General question about limits,Could you point me to the API docs?,Free,General,Medium,Tier-1 Support
+T-00316,Dashboard loads very slowly,The dashboard takes over 30 seconds to load since yesterday.,Pro,Technical,Low,Technical Support
+T-00317,Do you offer a nonprofit discount?,Just wanted to say the new update is great.,Free,General,Low,Tier-1 Support
+T-00318,I was charged twice this month,Can you explain the line items on invoice 9156?,Pro,Billing,Urgent,Billing Team
+T-00319,Question about your pricing plans,Just wanted to say the new update is great.,Enterprise,General,High,Tier-1 Support
+T-00320,Unable to connect to the API,The dashboard takes over 30 seconds to load since yesterday. Payment failed for all users — this is an emergency.,Free,Technical,Urgent,Technical Support
+T-00321,Please add dark mode,It would help a lot if we could export all records at once.,Pro,Feature Request,Low,Product Team
+T-00322,Question,Please advise. We have a complete outage and cannot access anything.,Free,Account,Urgent,Account Management
+T-00323,Something is wrong,Please advise.,Free,Bug,Medium,Engineering
+T-00324,Feature request: bulk export,It would help a lot if we could export all records at once.,Free,Feature Request,Low,Product Team
+T-00325,Remove a user from the workspace,We need to transfer ownership to a new manager.,Free,Account,Medium,Account Management
+T-00326,Invoice does not match my plan,Please update my billing address and resend the receipt.,Free,Billing,High,Billing Team
+T-00327,Question about your pricing plans,I'm evaluating the product and have a few questions.,Pro,General,Low,Tier-1 Support
+T-00328,Webhook events are delayed,We see timeouts when calling the reports endpoint. Payment failed for all users — this is an emergency.,Free,Technical,Urgent,Technical Support
+T-00329,Question,This has been happening for a few days now.,Free,Account,Medium,Account Management
+T-00330,Data not saving after edit,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00331,Question about your pricing plans,Is there a guide for onboarding a new team?,Free,General,Medium,Tier-1 Support
+T-00332,Dashboard loads very slowly,Our integration receives 401 errors intermittently.,Pro,Technical,High,Technical Support
+T-00333,Can we get Slack notifications?,We need custom fields to match our internal process.,Pro,Feature Request,Low,Product Team
+T-00334,Do you offer a nonprofit discount?,Just wanted to say the new update is great.,Free,General,Low,Tier-1 Support
+T-00335,Button does nothing when clicked,The totals in the monthly chart don't match the raw data.,Free,Bug,Medium,Engineering
+T-00336,Duplicate records appearing,"After I edit a record and save, the change disappears on refresh.",Enterprise,Bug,High,Engineering
+T-00337,Issue with my account,Not sure who to contact about this.,Free,General,Low,Tier-1 Support
+T-00338,Why did my subscription price change?,"I'd like to switch from monthly to annual billing. Critical: customers are affected right now, please help ASAP.",Pro,Billing,Urgent,Billing Team
+T-00339,Webhook events are delayed,Webhooks are arriving several minutes late.,Free,Technical,High,Technical Support
+T-00340,Question about your pricing plans,"What are the rate limits on the starter plan? Critical: customers are affected right now, please help ASAP.",Enterprise,General,Urgent,Tier-1 Support
+T-00341,I was charged twice this month,My card was declined but I was still charged.,Pro,Billing,Urgent,Billing Team
+T-00342,Export to CSV fails,Our integration receives 401 errors intermittently.,Free,Technical,Medium,Technical Support
+T-00343,Request for a mobile app,It would help a lot if we could export all records at once.,Free,Feature Request,Low,Product Team
+T-00344,Search returns no results for valid query,Search returns nothing even for records I can see in the list.,Enterprise,Bug,High,Engineering
+T-00345,How do I get started?,What are the rate limits on the starter plan?,Pro,General,Medium,Tier-1 Support
+T-00346,Search returns no results for valid query,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,Medium,Engineering
+T-00347,Something is wrong,Let me know what you need from me.,Pro,Account,Low,Account Management
+T-00348,Remove a user from the workspace,Deactivate the seat for a teammate who left.,Pro,Account,Medium,Account Management
+T-00349,Duplicate records appearing,Search returns nothing even for records I can see in the list.,Free,Bug,Medium,Engineering
+T-00350,Why did my subscription price change?,I'd like to switch from monthly to annual billing.,VIP,Billing,High,Billing Team
+T-00351,Button does nothing when clicked,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00352,Follow up,Let me know what you need from me.,Free,General,Medium,Tier-1 Support
+T-00353,Dashboard loads very slowly,Webhooks are arriving several minutes late.,Free,Technical,Medium,Technical Support
+T-00354,Numbers on the report are wrong,Search returns nothing even for records I can see in the list.,Pro,Bug,Medium,Engineering
+T-00355,Where can I find the documentation?,"Could you point me to the API docs? Critical: customers are affected right now, please help ASAP.",Pro,General,Urgent,Tier-1 Support
+T-00356,Problem,Not sure who to contact about this.,Pro,Account,Medium,Account Management
+T-00357,Follow up,This has been happening for a few days now.,VIP,Feature Request,High,Product Team
+T-00358,Follow up,"This has been happening for a few days now. Critical: customers are affected right now, please help ASAP.",Pro,Technical,Urgent,Technical Support
+T-00359,Update payment method,Can you explain the line items on invoice 9897?,Pro,Billing,Medium,Billing Team
+T-00360,Invoice does not match my plan,I'd like to switch from monthly to annual billing. This is urgent — our production system is down.,Pro,Billing,Urgent,Billing Team
+T-00361,Feature request: bulk export,"An audit log would help us with compliance reviews. Critical: customers are affected right now, please help ASAP.",Enterprise,Feature Request,Urgent,Product Team
+T-00362,Data not saving after edit,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,High,Engineering
+T-00363,Add a new team member,Please add jane@example.com as an admin.,Enterprise,Account,High,Account Management
+T-00364,Update payment method,Can you explain the line items on invoice 5908?,Enterprise,Billing,High,Billing Team
+T-00365,Follow up,Let me know what you need from me.,Pro,Technical,Low,Technical Support
+T-00366,I was charged twice this month,I'd like to switch from monthly to annual billing. Payment failed for all users — this is an emergency.,Enterprise,Billing,Urgent,Billing Team
+T-00367,Export to CSV fails,The CSV export button spins forever and never downloads. This is urgent — our production system is down.,Free,Technical,Urgent,Technical Support
+T-00368,Where can I find the documentation?,Just wanted to say the new update is great.,Free,General,Low,Tier-1 Support
+T-00369,Update payment method,Please update my billing address and resend the receipt.,Pro,Billing,Low,Billing Team
+T-00370,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,Pro,Billing,High,Billing Team
+T-00371,Do you offer a nonprofit discount?,Just wanted to say the new update is great.,Pro,General,Low,Tier-1 Support
+T-00372,Question about your pricing plans,Just wanted to say the new update is great.,Pro,General,Low,Tier-1 Support
+T-00373,Remove a user from the workspace,We need to transfer ownership to a new manager.,Pro,Account,Low,Account Management
+T-00374,Data not saving after edit,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,Medium,Engineering
+T-00375,Question about your pricing plans,Just wanted to say the new update is great.,Pro,General,Medium,Tier-1 Support
+T-00376,Numbers on the report are wrong,We're seeing duplicate rows created for a single action.,Free,Bug,High,Engineering
+T-00377,Numbers on the report are wrong,Search returns nothing even for records I can see in the list.,Pro,Bug,High,Engineering
+T-00378,Feature request: bulk export,An audit log would help us with compliance reviews.,Pro,Feature Request,Low,Product Team
+T-00379,Issue with my account,It stopped working and I'm not sure why.,Pro,Account,Low,Account Management
+T-00380,Do you offer a nonprofit discount?,I'm evaluating the product and have a few questions.,Pro,General,Low,Tier-1 Support
+T-00381,Numbers on the report are wrong,Clicking 'Submit' does nothing and no error is shown.,VIP,Bug,High,Engineering
+T-00382,How do I get started?,Is there a guide for onboarding a new team?,Pro,General,Medium,Tier-1 Support
+T-00383,Can you help?,It stopped working and I'm not sure why.,Pro,Account,Medium,Account Management
+T-00384,Search returns no results for valid query,The totals in the monthly chart don't match the raw data.,Free,Bug,High,Engineering
+T-00385,Request for a mobile app,It would help a lot if we could export all records at once.,Free,Feature Request,Low,Product Team
+T-00386,Change account owner,Deactivate the seat for a teammate who left.,Free,Account,Medium,Account Management
+T-00387,Data not saving after edit,We're seeing duplicate rows created for a single action. We have a complete outage and cannot access anything.,VIP,Bug,Urgent,Engineering
+T-00388,Need help,It stopped working and I'm not sure why.,Pro,Bug,High,Engineering
+T-00389,Question about your pricing plans,Could you point me to the API docs?,Pro,General,Medium,Tier-1 Support
+T-00390,Button does nothing when clicked,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00391,Webhook events are delayed,Webhooks are arriving several minutes late.,Free,Technical,Medium,Technical Support
+T-00392,Change account owner,I can't log in and the reset email never arrives.,Free,Account,Low,Account Management
+T-00393,Do you offer a nonprofit discount?,"Could you point me to the API docs? Critical: customers are affected right now, please help ASAP.",Free,General,Urgent,Tier-1 Support
+T-00394,Button does nothing when clicked,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,Medium,Engineering
+T-00395,Problem,Can someone take a look at this when you get a chance?,Pro,General,Low,Tier-1 Support
+T-00396,Do you offer a nonprofit discount?,What are the rate limits on the starter plan?,Free,General,Low,Tier-1 Support
+T-00397,Change account owner,Please add jane@example.com as an admin.,Enterprise,Account,High,Account Management
+T-00398,Button does nothing when clicked,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00399,General question about limits,What are the rate limits on the starter plan?,Pro,General,Low,Tier-1 Support
+T-00400,Update company name on account,How do I turn on 2FA for everyone on the plan? We have a complete outage and cannot access anything.,Pro,Account,Urgent,Account Management
+T-00401,Duplicate records appearing,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00402,Problem,Please advise. We have a complete outage and cannot access anything.,Free,Feature Request,Urgent,Product Team
+T-00403,Need help,This has been happening for a few days now.,Free,Account,Medium,Account Management
+T-00404,Search returns no results for valid query,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,Medium,Engineering
+T-00405,Refund request for duplicate charge,Can you explain the line items on invoice 1082?,Enterprise,Billing,High,Billing Team
+T-00406,Can you help?,Not sure who to contact about this.,Free,General,Low,Tier-1 Support
+T-00407,Do you offer a nonprofit discount?,Is there a guide for onboarding a new team?,Pro,General,Low,Tier-1 Support
+T-00408,Update payment method,Please update my billing address and resend the receipt.,Pro,Billing,High,Billing Team
+T-00409,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,Free,Billing,Medium,Billing Team
+T-00410,This isn't working,Please advise.,Free,Technical,Low,Technical Support
+T-00411,Update company name on account,How do I turn on 2FA for everyone on the plan?,Enterprise,Account,High,Account Management
+T-00412,Getting timeout errors,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00413,Where can I find the documentation?,Just wanted to say the new update is great.,Pro,General,Medium,Tier-1 Support
+T-00414,Follow up,It stopped working and I'm not sure why.,Free,Account,Medium,Account Management
+T-00415,Unable to connect to the API,The dashboard takes over 30 seconds to load since yesterday.,VIP,Technical,High,Technical Support
+T-00416,Chart shows incorrect totals,Clicking 'Submit' does nothing and no error is shown.,Pro,Bug,High,Engineering
+T-00417,Getting timeout errors,Our integration receives 401 errors intermittently.,Pro,Technical,High,Technical Support
+T-00418,Webhook events are delayed,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00419,Something is wrong,Let me know what you need from me.,Pro,Billing,Low,Billing Team
+T-00420,Webhook events are delayed,Our integration receives 401 errors intermittently.,Pro,Technical,Medium,Technical Support
+T-00421,Question about your pricing plans,What are the rate limits on the starter plan?,Free,General,Low,Tier-1 Support
+T-00422,Feature request: bulk export,We need custom fields to match our internal process.,Free,Feature Request,Low,Product Team
+T-00423,Remove a user from the workspace,I can't log in and the reset email never arrives.,Free,Account,Medium,Account Management
+T-00424,Dashboard loads very slowly,Webhooks are arriving several minutes late.,Pro,Technical,High,Technical Support
+T-00425,Problem,Let me know what you need from me. This is urgent — our production system is down.,Free,Technical,Urgent,Technical Support
+T-00426,Why did my subscription price change?,I'd like to switch from monthly to annual billing.,Free,Billing,High,Billing Team
+T-00427,Thanks for the great product,Could you point me to the API docs?,Free,General,Low,Tier-1 Support
+T-00428,Search returns no results for valid query,"After I edit a record and save, the change disappears on refresh.",Free,Bug,High,Engineering
+T-00429,Getting timeout errors,The dashboard takes over 30 seconds to load since yesterday.,Pro,Technical,Medium,Technical Support
+T-00430,Follow up,Can someone take a look at this when you get a chance?,Enterprise,Billing,High,Billing Team
+T-00431,Getting timeout errors,We see timeouts when calling the reports endpoint.,Free,Technical,Medium,Technical Support
+T-00432,Issue with my account,Can someone take a look at this when you get a chance?,VIP,Feature Request,High,Product Team
+T-00433,How do I get started?,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00434,Data not saving after edit,"After I edit a record and save, the change disappears on refresh.",VIP,Bug,High,Engineering
+T-00435,Enable two-factor authentication,We need to transfer ownership to a new manager.,Pro,Account,Medium,Account Management
+T-00436,Request for a mobile app,We need custom fields to match our internal process.,VIP,Feature Request,High,Product Team
+T-00437,Refund request for duplicate charge,Please update my billing address and resend the receipt.,Free,Billing,Medium,Billing Team
+T-00438,How do I get started?,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00439,Do you offer a nonprofit discount?,Could you point me to the API docs?,Pro,General,Medium,Tier-1 Support
+T-00440,Request for a mobile app,Our team lives in Slack and wants alerts there.,Pro,Feature Request,Low,Product Team
+T-00441,Would love an audit log,A dark theme would reduce eye strain for night shifts.,VIP,Feature Request,High,Product Team
+T-00442,Do you offer a nonprofit discount?,What are the rate limits on the starter plan?,Free,General,Low,Tier-1 Support
+T-00443,Button does nothing when clicked,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,Medium,Engineering
+T-00444,Search returns no results for valid query,The totals in the monthly chart don't match the raw data.,Free,Bug,Medium,Engineering
+T-00445,Getting timeout errors,The dashboard takes over 30 seconds to load since yesterday.,Pro,Technical,High,Technical Support
+T-00446,Update payment method,I see two charges on my statement for the same billing period.,Free,Billing,Medium,Billing Team
+T-00447,Can we get Slack notifications?,We need custom fields to match our internal process.,Pro,Feature Request,Low,Product Team
+T-00448,Question about your pricing plans,I'm evaluating the product and have a few questions.,Pro,General,Medium,Tier-1 Support
+T-00449,Do you offer a nonprofit discount?,Could you point me to the API docs? We have a complete outage and cannot access anything.,Free,General,Urgent,Tier-1 Support
+T-00450,Data not saving after edit,Search returns nothing even for records I can see in the list.,Free,Bug,Medium,Engineering
+T-00451,Export to CSV fails,The CSV export button spins forever and never downloads.,Free,Technical,Urgent,Technical Support
+T-00452,Add a new team member,Deactivate the seat for a teammate who left.,Pro,Account,Medium,Account Management
+T-00453,Can we get Slack notifications?,A dark theme would reduce eye strain for night shifts.,Free,Feature Request,Medium,Product Team
+T-00454,Getting timeout errors,We see timeouts when calling the reports endpoint. We have a complete outage and cannot access anything.,Enterprise,Technical,Urgent,Technical Support
+T-00455,Update payment method,Please update my billing address and resend the receipt.,Free,Billing,Low,Billing Team
+T-00456,Update payment method,My card was declined but I was still charged.,Pro,Billing,Medium,Billing Team
+T-00457,Why did my subscription price change?,I see two charges on my statement for the same billing period.,Free,Billing,High,Billing Team
+T-00458,Chart shows incorrect totals,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00459,Need help,It stopped working and I'm not sure why.,Free,Billing,Medium,Billing Team
+T-00460,Button does nothing when clicked,Clicking 'Submit' does nothing and no error is shown.,Pro,Bug,High,Engineering
+T-00461,Question about your pricing plans,Could you point me to the API docs?,Pro,General,Low,Tier-1 Support
+T-00462,Add a new team member,I can't log in and the reset email never arrives.,Free,Account,Medium,Account Management
+T-00463,Refund request for duplicate charge,Please update my billing address and resend the receipt.,Free,Billing,High,Billing Team
+T-00464,Where can I find the documentation?,Could you point me to the API docs?,Free,General,Low,Tier-1 Support
+T-00465,SSO login not working,The CSV export button spins forever and never downloads.,Free,Technical,Urgent,Technical Support
+T-00466,Remove a user from the workspace,How do I turn on 2FA for everyone on the plan?,Enterprise,Account,High,Account Management
+T-00467,Data not saving after edit,"After I edit a record and save, the change disappears on refresh.",Free,Bug,Medium,Engineering
+T-00468,Update company name on account,How do I turn on 2FA for everyone on the plan?,Free,Account,Medium,Account Management
+T-00469,Something is wrong,Let me know what you need from me.,Enterprise,Technical,High,Technical Support
+T-00470,Question about my invoice,Please update my billing address and resend the receipt.,Enterprise,Billing,High,Billing Team
+T-00471,Issue with my account,Please advise. This is urgent — our production system is down.,Pro,Technical,Urgent,Technical Support
+T-00472,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,VIP,Billing,High,Billing Team
+T-00473,This isn't working,This has been happening for a few days now.,Enterprise,Billing,High,Billing Team
+T-00474,Search returns no results for valid query,The totals in the monthly chart don't match the raw data.,Pro,Bug,Medium,Engineering
+T-00475,Issue with my account,This has been happening for a few days now.,Enterprise,Bug,High,Engineering
+T-00476,Would love an audit log,An audit log would help us with compliance reviews.,Free,Feature Request,Low,Product Team
+T-00477,Where can I find the documentation?,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00478,General question about limits,Just wanted to say the new update is great.,Enterprise,General,High,Tier-1 Support
+T-00479,Question about my invoice,Can you explain the line items on invoice 8942?,Pro,Billing,Medium,Billing Team
+T-00480,Button does nothing when clicked,The totals in the monthly chart don't match the raw data.,Pro,Bug,Medium,Engineering
+T-00481,Question,It stopped working and I'm not sure why.,Enterprise,Bug,High,Engineering
+T-00482,Can you help?,This has been happening for a few days now.,Free,General,Low,Tier-1 Support
+T-00483,Problem,It stopped working and I'm not sure why.,Free,General,Low,Tier-1 Support
+T-00484,This isn't working,Please advise.,Pro,Billing,Low,Billing Team
+T-00485,Update payment method,Can you explain the line items on invoice 7804?,Free,Billing,Medium,Billing Team
+T-00486,I was charged twice this month,I'd like to switch from monthly to annual billing.,Free,Billing,Urgent,Billing Team
+T-00487,Remove a user from the workspace,We need to transfer ownership to a new manager.,Free,Account,Low,Account Management
+T-00488,Export to CSV fails,We see timeouts when calling the reports endpoint.,Free,Technical,Medium,Technical Support
+T-00489,Problem,Not sure who to contact about this.,Pro,Technical,Medium,Technical Support
+T-00490,Feature request: bulk export,An audit log would help us with compliance reviews.,Pro,Feature Request,Low,Product Team
+T-00491,Issue with my account,Let me know what you need from me.,Free,Billing,Low,Billing Team
+T-00492,Unable to connect to the API,The CSV export button spins forever and never downloads.,Free,Technical,Urgent,Technical Support
+T-00493,Issue with my account,Can someone take a look at this when you get a chance?,Pro,Account,Low,Account Management
+T-00494,Unable to connect to the API,The dashboard takes over 30 seconds to load since yesterday.,Free,Technical,Medium,Technical Support
+T-00495,Remove a user from the workspace,"How do I turn on 2FA for everyone on the plan? Possible security breach, need help immediately.",Free,Account,Urgent,Account Management
+T-00496,Invoice does not match my plan,Please update my billing address and resend the receipt.,Free,Billing,Medium,Billing Team
+T-00497,Getting timeout errors,Webhooks are arriving several minutes late.,Free,Technical,High,Technical Support
+T-00498,Question about my invoice,Please update my billing address and resend the receipt.,Pro,Billing,Low,Billing Team
+T-00499,Can you help?,Please advise.,Pro,Account,Medium,Account Management
+T-00500,Do you offer a nonprofit discount?,What are the rate limits on the starter plan?,Pro,General,Medium,Tier-1 Support
+T-00501,Search returns no results for valid query,Search returns nothing even for records I can see in the list.,Free,Bug,High,Engineering
+T-00502,Numbers on the report are wrong,Clicking 'Submit' does nothing and no error is shown.,Pro,Bug,High,Engineering
+T-00503,Add support for custom fields,It would help a lot if we could export all records at once.,Pro,Feature Request,Low,Product Team
+T-00504,Where can I find the documentation?,Could you point me to the API docs?,Pro,General,Medium,Tier-1 Support
+T-00505,Remove a user from the workspace,We need to transfer ownership to a new manager.,Pro,Account,Low,Account Management
+T-00506,Update payment method,Please update my billing address and resend the receipt.,Enterprise,Billing,High,Billing Team
+T-00507,Duplicate records appearing,Search returns nothing even for records I can see in the list.,Free,Bug,Medium,Engineering
+T-00508,Remove a user from the workspace,How do I turn on 2FA for everyone on the plan?,Free,Account,Low,Account Management
+T-00509,Can we get Slack notifications?,A dark theme would reduce eye strain for night shifts.,Enterprise,Feature Request,High,Product Team
+T-00510,Remove a user from the workspace,We need to transfer ownership to a new manager.,Enterprise,Account,High,Account Management
+T-00511,This isn't working,It stopped working and I'm not sure why.,Free,Technical,High,Technical Support
+T-00512,Data not saving after edit,"After I edit a record and save, the change disappears on refresh.",Enterprise,Bug,High,Engineering
+T-00513,Can you help?,This has been happening for a few days now.,Pro,Account,Medium,Account Management
+T-00514,Enable two-factor authentication,Deactivate the seat for a teammate who left.,Free,Account,Low,Account Management
+T-00515,How do I get started?,I'm evaluating the product and have a few questions.,Pro,General,Low,Tier-1 Support
+T-00516,Enable two-factor authentication,"How do I turn on 2FA for everyone on the plan? Critical: customers are affected right now, please help ASAP.",Pro,Account,Urgent,Account Management
+T-00517,SSO login not working,Our integration receives 401 errors intermittently.,Free,Technical,Urgent,Technical Support
+T-00518,Can we get Slack notifications?,Our team lives in Slack and wants alerts there.,Free,Feature Request,Low,Product Team
+T-00519,Please add dark mode,We need custom fields to match our internal process.,Pro,Feature Request,Medium,Product Team
+T-00520,Reset my password,How do I turn on 2FA for everyone on the plan?,Pro,Account,Medium,Account Management
+T-00521,Unable to connect to the API,Our integration receives 401 errors intermittently.,Free,Technical,Medium,Technical Support
+T-00522,Problem,This has been happening for a few days now.,Free,General,Low,Tier-1 Support
+T-00523,Where can I find the documentation?,Is there a guide for onboarding a new team?,Free,General,Low,Tier-1 Support
+T-00524,Refund request for duplicate charge,My card was declined but I was still charged.,Pro,Billing,Medium,Billing Team
+T-00525,Search returns no results for valid query,"The totals in the monthly chart don't match the raw data. Critical: customers are affected right now, please help ASAP.",Pro,Bug,Urgent,Engineering
+T-00526,Request for a mobile app,It would help a lot if we could export all records at once.,Pro,Feature Request,Medium,Product Team
+T-00527,Would love an audit log,It would help a lot if we could export all records at once.,Pro,Feature Request,Low,Product Team
+T-00528,Refund request for duplicate charge,I'd like to switch from monthly to annual billing.,Pro,Billing,Medium,Billing Team
+T-00529,Something is wrong,"Let me know what you need from me. Critical: customers are affected right now, please help ASAP.",Enterprise,Billing,Urgent,Billing Team
+T-00530,Thanks for the great product,I'm evaluating the product and have a few questions.,Free,General,Medium,Tier-1 Support
+T-00531,Change account owner,We need to transfer ownership to a new manager.,Free,Account,Low,Account Management
+T-00532,Data not saving after edit,The totals in the monthly chart don't match the raw data.,Pro,Bug,Medium,Engineering
+T-00533,Issue with my account,Please advise.,Free,Feature Request,Low,Product Team
+T-00534,Search returns no results for valid query,The totals in the monthly chart don't match the raw data.,Pro,Bug,Medium,Engineering
+T-00535,Numbers on the report are wrong,We're seeing duplicate rows created for a single action.,Free,Bug,High,Engineering
+T-00536,Thanks for the great product,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00537,Export to CSV fails,The dashboard takes over 30 seconds to load since yesterday. Payment failed for all users — this is an emergency.,Free,Technical,Urgent,Technical Support
+T-00538,Question about my invoice,My card was declined but I was still charged.,Enterprise,Billing,High,Billing Team
+T-00539,Please add dark mode,It would help a lot if we could export all records at once.,Pro,Feature Request,Low,Product Team
+T-00540,Can we get Slack notifications?,A dark theme would reduce eye strain for night shifts.,Free,Feature Request,Low,Product Team
+T-00541,Chart shows incorrect totals,Search returns nothing even for records I can see in the list.,Pro,Bug,Medium,Engineering
+T-00542,Refund request for duplicate charge,I see two charges on my statement for the same billing period.,Enterprise,Billing,High,Billing Team
+T-00543,Request for a mobile app,Our team lives in Slack and wants alerts there.,Free,Feature Request,Medium,Product Team
+T-00544,Enable two-factor authentication,Deactivate the seat for a teammate who left.,Pro,Account,Medium,Account Management
+T-00545,Webhook events are delayed,Our integration receives 401 errors intermittently.,Free,Technical,Low,Technical Support
+T-00546,Issue with my account,Let me know what you need from me.,Enterprise,General,High,Tier-1 Support
+T-00547,SSO login not working,The dashboard takes over 30 seconds to load since yesterday. We have a complete outage and cannot access anything.,Pro,Technical,Urgent,Technical Support
+T-00548,Invoice does not match my plan,Please update my billing address and resend the receipt.,Enterprise,Billing,High,Billing Team
+T-00549,Data not saving after edit,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,High,Engineering
+T-00550,Follow up,It stopped working and I'm not sure why.,Free,Account,Low,Account Management
+T-00551,Add a new team member,We need to transfer ownership to a new manager.,Pro,Account,Low,Account Management
+T-00552,Update payment method,Can you explain the line items on invoice 6796?,Pro,Billing,Low,Billing Team
+T-00553,Export to CSV fails,The CSV export button spins forever and never downloads.,Pro,Technical,Urgent,Technical Support
+T-00554,Something is wrong,It stopped working and I'm not sure why. This is urgent — our production system is down.,Free,Technical,Urgent,Technical Support
+T-00555,Question about my invoice,I'd like to switch from monthly to annual billing.,Free,Billing,High,Billing Team
+T-00556,Please add dark mode,Our team lives in Slack and wants alerts there.,Pro,Feature Request,Low,Product Team
+T-00557,I was charged twice this month,My card was declined but I was still charged.,Free,Billing,Urgent,Billing Team
+T-00558,Update payment method,Can you explain the line items on invoice 7557?,Pro,Billing,Medium,Billing Team
+T-00559,Where can I find the documentation?,"Just wanted to say the new update is great. Possible security breach, need help immediately.",Pro,General,Urgent,Tier-1 Support
+T-00560,Feature request: bulk export,It would help a lot if we could export all records at once.,Free,Feature Request,Medium,Product Team
+T-00561,Unable to connect to the API,Our integration receives 401 errors intermittently.,Pro,Technical,Medium,Technical Support
+T-00562,Issue with my account,Can someone take a look at this when you get a chance?,Free,Billing,Low,Billing Team
+T-00563,Data not saving after edit,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,Medium,Engineering
+T-00564,Question about my invoice,Can you explain the line items on invoice 3347?,Pro,Billing,Medium,Billing Team
+T-00565,Something is wrong,It stopped working and I'm not sure why. This is urgent — our production system is down.,Pro,Bug,Urgent,Engineering
+T-00566,General question about limits,Just wanted to say the new update is great. This is urgent — our production system is down.,Enterprise,General,Urgent,Tier-1 Support
+T-00567,Search returns no results for valid query,"After I edit a record and save, the change disappears on refresh. Payment failed for all users — this is an emergency.",Pro,Bug,Urgent,Engineering
+T-00568,Dashboard loads very slowly,The CSV export button spins forever and never downloads.,Free,Technical,Urgent,Technical Support
+T-00569,Numbers on the report are wrong,"The totals in the monthly chart don't match the raw data. Critical: customers are affected right now, please help ASAP.",Pro,Bug,Urgent,Engineering
+T-00570,Can you help?,Can someone take a look at this when you get a chance? This is urgent — our production system is down.,Pro,Account,Urgent,Account Management
+T-00571,I was charged twice this month,Please update my billing address and resend the receipt.,Pro,Billing,Urgent,Billing Team
+T-00572,Search returns no results for valid query,"After I edit a record and save, the change disappears on refresh.",Pro,Bug,High,Engineering
+T-00573,Where can I find the documentation?,I'm evaluating the product and have a few questions.,Free,General,Low,Tier-1 Support
+T-00574,Problem,"Not sure who to contact about this. Possible security breach, need help immediately.",Free,Feature Request,Urgent,Product Team
+T-00575,Getting timeout errors,The CSV export button spins forever and never downloads.,Free,Technical,Urgent,Technical Support
+T-00576,Issue with my account,Please advise.,Free,Billing,Medium,Billing Team
+T-00577,Refund request for duplicate charge,I see two charges on my statement for the same billing period.,Pro,Billing,Low,Billing Team
+T-00578,Add a new team member,How do I turn on 2FA for everyone on the plan?,Free,Account,Low,Account Management
+T-00579,Export to CSV fails,Our integration receives 401 errors intermittently.,Pro,Technical,Low,Technical Support
+T-00580,How do I get started?,What are the rate limits on the starter plan?,Free,General,Low,Tier-1 Support
+T-00581,Search returns no results for valid query,Clicking 'Submit' does nothing and no error is shown.,Free,Bug,Medium,Engineering
+T-00582,Invoice does not match my plan,I'd like to switch from monthly to annual billing.,Free,Billing,Low,Billing Team
+T-00583,Question,"Please advise. Critical: customers are affected right now, please help ASAP.",Free,General,Urgent,Tier-1 Support
+T-00584,Getting timeout errors,We see timeouts when calling the reports endpoint.,Pro,Technical,High,Technical Support
+T-00585,Webhook events are delayed,The CSV export button spins forever and never downloads.,Enterprise,Technical,Urgent,Technical Support
+T-00586,Please add dark mode,We need custom fields to match our internal process. We have a complete outage and cannot access anything.,Free,Feature Request,Urgent,Product Team
+T-00587,Question about your pricing plans,I'm evaluating the product and have a few questions.,Free,General,Medium,Tier-1 Support
+T-00588,Question about your pricing plans,I'm evaluating the product and have a few questions.,Pro,General,Low,Tier-1 Support
+T-00589,Issue with my account,It stopped working and I'm not sure why. This is urgent — our production system is down.,Free,Feature Request,Urgent,Product Team
+T-00590,Export to CSV fails,Our integration receives 401 errors intermittently.,Enterprise,Technical,High,Technical Support
+T-00591,Add a new team member,I can't log in and the reset email never arrives.,Free,Account,Medium,Account Management
+T-00592,I was charged twice this month,My card was declined but I was still charged.,Free,Billing,Urgent,Billing Team
+T-00593,Something is wrong,Not sure who to contact about this.,Enterprise,Account,High,Account Management
+T-00594,Follow up,Please advise.,Free,Feature Request,Low,Product Team
+T-00595,Feature request: bulk export,Our team lives in Slack and wants alerts there.,Free,Feature Request,Low,Product Team
+T-00596,Webhook events are delayed,Our integration receives 401 errors intermittently.,Free,Technical,Low,Technical Support
+T-00597,Chart shows incorrect totals,"Search returns nothing even for records I can see in the list. Possible security breach, need help immediately.",Free,Bug,Urgent,Engineering
+T-00598,Can you help?,"Can someone take a look at this when you get a chance? Possible security breach, need help immediately.",Free,Billing,Urgent,Billing Team
+T-00599,Would love an audit log,Our team lives in Slack and wants alerts there.,Enterprise,Feature Request,High,Product Team
+T-00600,Change account owner,Please add jane@example.com as an admin.,Free,Account,Medium,Account Management
