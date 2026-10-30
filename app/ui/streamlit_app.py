@@ -69,8 +69,10 @@ with st.sidebar:
     )
     try:
         h = get_json("/health")
-        ok = h["status"] == "ok"
-        st.success("API healthy") if ok else st.warning(f"API: {h['status']}")
+        if h["status"] == "ok":
+            st.success("API healthy")
+        else:
+            st.warning(f"API: {h['status']}")
         st.caption(f"model_loaded={h['model_loaded']} · db_ok={h['db_ok']} "
                    f"· v{h['version']}")
     except Exception as e:  # noqa: BLE001

@@ -67,18 +67,23 @@ flowchart TD
 
 ## Demo
 
-A 60–90s walkthrough: submit a ticket → see the explainable decision → work the queue → override a wrong call → watch the metrics update.
+The workflow: submit a ticket → see the explainable decision → work the queue → override a wrong call → watch the metrics update.
 
-```
-screenshots/        <- add your captured screenshots here
-  01-architecture.png
-  02-triage.png
-  03-explanation.png
-  04-human-review.png
-  05-metrics.png
-```
+**1. Submit a ticket** — subject, body, and customer tier.
 
-> To capture screenshots: run the API and the Streamlit console (below), then screenshot each tab. The architecture diagram renders directly from the Mermaid block above.
+![Submit a ticket](screenshots/01-submit-ticket.png)
+
+**2. Decision and explanation** — the rule layer escalates the outage to `Urgent`, but the model is only 30% confident about the category, so the ticket goes to the Human Review Queue instead of being mis-routed. Every step is explained.
+
+![Decision and explanation](screenshots/02-decision-and-explanation.png)
+
+**3. Operator queue** — recent tickets with confidence and review flags, plus a form to override a decision (captured as feedback).
+
+![Operator queue](screenshots/03-operator-queue.png)
+
+**4. Metrics** — workflow metrics computed from the live audit log.
+
+![Metrics](screenshots/04-metrics.png)
 
 ---
 

@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     # instead of being auto-assigned. This is the core "exception path".
     confidence_threshold: float = 0.45
 
-    # Optional shared-secret auth for the write endpoints. Unset = open (demo).
+    # Optional shared-secret auth for the write endpoints. Unset = open (no auth).
     api_key: str | None = None
 
     # Artifact + data locations (absolute, derived from repo root).
